@@ -14,7 +14,7 @@ function draw() {
   pop();
   push();
   scale(3);
-  rotateZ(frameCount*0.01);
+  rotateY(frameCount*0.01);
   noStroke();
   ambientLight(80);
   directionalLight(0,0,255,0,1,0);

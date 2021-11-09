@@ -14,7 +14,6 @@ function draw() {
   pop();
   push();
   scale(3);
-  rotateX(PI/2);
   rotateZ(frameCount*0.01);
   noStroke();
   ambientLight(80);

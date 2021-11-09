@@ -13,7 +13,7 @@ function draw() {
   fill(255,255,0);
   pop();
   push();
-  scale(3);
+  scale(6);
   rotateY(frameCount*0.01);
   noStroke();
   ambientLight(80);
